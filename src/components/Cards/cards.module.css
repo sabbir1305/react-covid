@@ -1,0 +1,56 @@
+.container{
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 2% !important;
+}
+
+.infected{
+    border-bottom: 15px solid rgba(0,0,255,.5);
+}
+
+
+.recovered{
+    border-bottom: 15px solid rgba(0,255,0,.5);
+}
+
+
+.deaths{
+    border-bottom: 15px solid rgba(255,0,0,.5);
+}
+
+.bdcard{
+    border-bottom: 15px solid rgba(0, 5, 0, 0.5);
+}
+
+.bddeaths{
+    color: rgba(255,0,0,.5);
+    font-weight: bold;
+}
+.bdtotal{
+    color: rgba(241, 188, 12, 0.863);
+    font-weight: bold;
+}
+.bdactive{
+    color: rgba(0,0,255,.5);
+    font-weight: bold;
+}
+
+.bdrecovered{
+    color: rgba(0,255,0,.5);
+    font-weight: bold;
+}
+.bd{
+
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width: 770px){
+    .card{
+        margin:2% 0 !important;
+    }
+}

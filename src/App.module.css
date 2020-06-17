@@ -8,4 +8,37 @@ body{
     display: flex;
     align-items: center;
     justify-self: center;
+    flex-direction: column;
 }
+
+
+  .Applogo {
+    height: 5vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Applogo {
+      animation: Applogospin infinite 10s linear;
+    }
+  }
+  
+  
+  
+  
+  
+  @keyframes Applogospin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width: 770px){
+      .container{
+          margin: 0 10%;
+      }
+  }
+  
